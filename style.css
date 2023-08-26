@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container{
+    max-width: 450px;
+    background: #000;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 3px rgba(121, 57, 57, 0.4);
+    font-family: sans-serif;
+    padding: 20px;
+    outline: dotted;
+    outline-width: 5px;
+    outline-style: hidden;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+    outline-color: #514444;
+    outline-style: auto;
+    outline-width: px;
+    
+}
+
+.Temperature-icon{
+    font-size: 45px;
+    color: #e2dbdb;
+}
+
+h1{
+    color: rgb(235, 235, 235);
+    letter-spacing: 1.6px;
+    font-size: 30px;
+    font-style:initial;
+    background-image: white;
+}
+
+#Celsius,#Fahrenheit,#Kelvin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    
+}
+input{
+    flex: 5;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    padding: 0 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+input{
+    -moz-appearance: textfield;
+}
+.icon{
+    flex: 2;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 30px;
+    background: #fff;
+    color: #000;
+    border-radius: 0 8px 8px 0;
+    
+}
+
+.button{
+    margin-top: 25px;
+    text-align: center;
+    
+}
+
+.button button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3;
+    outline: groove;
+}
+
+.button button:hover{
+    background: #f0f0f0;
+    color: #ffffff;
+}
